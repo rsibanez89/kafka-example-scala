@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "scala",
+            "request": "launch",
+            "name": "Run Producer",
+            "mainClass": "example.KafkaExampleProducer",
+            "args": [],
+            "jvmOptions": [],
+            "env": {},
+        },
+        {
+            "type": "scala",
+            "request": "launch",
+            "name": "Run Consumer",
+            "mainClass": "example.KafkaExampleConsumer",
+            "args": [],
+            "jvmOptions": [],
+            "env": {},
+        },
+        {
+            "type": "scala",
+            "request": "launch",
+            "name": "Run Hello",
+            "mainClass": "example.Hello",
+            "args": [],
+            "jvmOptions": [],
+            "env": {}
+        }
+    ]
+}

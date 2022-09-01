@@ -1,2 +1,9 @@
 *.class
 *.log
+
+.bloop/*
+.metals/*
+
+# Maven
+target/
+dist/
